@@ -8,7 +8,7 @@ headers = {
 "Authorization": f"Bearer {HF_API_KEY}"}
 
 def caption_single_image():
-    image_source = "local_image.jpg" # Hardcoded filename
+    image_source = "test.jpg" # Hardcoded filename
     try:
         with open(image_source, "rb") as f:
             image_bytes = f.read()
